@@ -14,5 +14,28 @@
     </form>
     <hr>
 
+    <form>
+        <label for="nomedapessoa">Nome:</label>
+        <input type="text" required name="nomedapessoa" id="nomedapessoa"><br>
+        <label for="emaildapessoa">E-mail:</label>
+        <input type="email" required name="emaildapessoa" id="emaildapessoa"><br>
+        <label for="idadedapessoa">Idade:</label>
+        <input type="number" min="15" max="99" name="idadedapessoa" id="idadedapessoa">
+        <br>
+        <button type="submit">Salvar</button>
+        <button type="reset">Limpar</button>
+    </form>
+    <hr>
+    <form>
+        <input type="text" name="nome" id="nome" placeholder="Digite seu nome"><br>
+        <input type="email" name="email" id="email" placeholder="usuario@site.com"><br>
+        Deseja reclamar? 
+        <input type="radio" name="reclamar" value="S">Sim 
+        <input type="radio" name="reclamar" value="N">Não
+        <br>
+        <textarea name="reclamacao">RECLAME AQUI!!!!</textarea>
+        <button type="submit">SALVAR</button>
+    </form>
+    
 </body>
 </html>
