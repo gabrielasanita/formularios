@@ -33,9 +33,28 @@
         <input type="radio" name="reclamar" value="S">Sim 
         <input type="radio" name="reclamar" value="N">Não
         <br>
-        <textarea name="reclamacao">RECLAME AQUI!!!!</textarea>
+        <textarea name="reclamacao" placeholder="Reclame aqui" rows="5">RECLAME AQUI!!!!</textarea>
         <button type="submit">SALVAR</button>
     </form>
-    
+    <hr>
+    <form>
+        Sua cor favorita?
+        <input type="color" name="cor" id="cor"><br>
+        Data de nascimento:
+        <input type="date" name="data" id="data"><br>
+        Esporte favorito
+        <input type="checkbox" value="fut" name="fut">Futebol
+        <input type="checkbox" value="vol" name="vol">Volei
+        <input type="checkbox" value="bas" name="bas">Basquete
+        <br>
+        O livro está sobre
+        <select name="livro" id="livro">
+            <option value="a mesa">A MESA</option>
+            <option value="a churrasqueira">A CHURRASQUEIRA</option>
+            <option value="a cadeira">A CADEIRA</option>
+            <option value="que livro?">QUE LIVRO?</option>
+        </select>
+    </form>
+
 </body>
 </html>
